@@ -13,7 +13,7 @@
           <p>Buld with &hearts; by Gibert fullstack !!!</p>
             <p><a href="/">revenir à la page d'accueil</a></p>
 
-          <footer>&copy; copyright {{date('Y')}} &middot; <a href="#">About as</a></footer>
+          <footer>&copy; copyright {{date('Y')}} &middot;</footer>
     </body>
    
 </html>
