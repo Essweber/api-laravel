@@ -4,44 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Mon app laravel</title>
+        <title>@yield('title', env('APP_NAME'))</title>
 
 
     </head>
     <body>
         @yield('content')
-
+        {{Config('projet.name')}}
         <footer>
-            &copy; copyright {{date('Y')}} &middot;
-            <a href="/about-us">About as</a>
+        @yield('footer')
+        &copy; copyright {{date('Y')}} &middot;
         </footer>
     </body>
    
 </html>
 
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-<html>
-    <head>
-        <title>App Name - @yield('title')</title>
-    </head>
-    <body>
-        @section('sidebar')
-            This is the master sidebar.
-        @show
- 
-        <div class="container">
-            @yield('content')
-        </div>
-    </body>
-</html> -->
