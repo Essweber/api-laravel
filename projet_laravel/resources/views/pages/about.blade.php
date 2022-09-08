@@ -7,6 +7,7 @@
 @stop -->
 
 @section('content')
+<img src="{{asset('/img/loo_mtc.png')}}" alt="logo MTC">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
           <h1>A propos de nous</h1>
           <p>Buld with &hearts; by Gibert fullstack !!!</p>
