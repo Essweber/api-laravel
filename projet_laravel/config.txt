@@ -1,0 +1,8 @@
+
+
+***************GESTION DES ERREURS***********************
+
+C:\MAMP\conf\php8.1.0\php.ini
+
+la clé de configuration error_reporting a la valeur E_ALL
+la clé de configuration  display_errors a la valeur On
